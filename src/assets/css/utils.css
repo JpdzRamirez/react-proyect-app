@@ -1,0 +1,5 @@
+.aside-title{
+    white-space: pre-line; /* Respetar saltos de línea */
+    word-wrap: break-word; /* Romper palabras largas */
+    word-break: break-all; /* Romper palabras para evitar desbordes */
+}

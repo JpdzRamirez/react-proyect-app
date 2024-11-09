@@ -1,8 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+
+// Bootsrap Styles
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+
+// Dashboard Styles
+import './assets/css/fontawesome.css';
+import './assets/css/argon-dashboard.css';
+import './assets/css/typography.css';
+import './assets/css/utils.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
